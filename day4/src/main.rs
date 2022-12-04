@@ -69,7 +69,7 @@ mod tests {
     #[test]
     fn test_get_total(){
         let input = "2-4,6-8\n2-3,4-5\n5-7,7-9\n2-8,3-7\n6-6,4-6\n2-6,4-8";
-        let want = 2;
+        let want = 4;
         let got = get_total(input.to_string());
         assert_eq!(want, got);
     }

@@ -46,8 +46,6 @@ fn get_character_value(char_in: char) -> i32 {
 #[cfg(test)]
 mod tests {
     use crate::{get_same_character, get_character_value};
-
-
     #[test]
     fn test_get_same_character(){
         let first_input = "ABcDE";

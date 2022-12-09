@@ -28,9 +28,3 @@ fn main() {
     }
     println!("{}", i);
 }
-
-#[cfg(test)]
-mod test {
-    #[test]
-    fn test_detect_pattern() {}
-}
